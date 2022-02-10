@@ -1,26 +1,33 @@
-﻿#############
-## Idea
-#############
+HELP.md
 target/
-.idea/
-.idea
-.repository/
-*.iml
-*.iws
-*.jrtc
-*.java
-*.class
-*.info
-*.properties
-*.jar
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**/target/
+!**/src/test/**/target/
 
-/1.JavaSyntax/
-/2.JavaCore/
-/3.JavaMultithreading/
-/4.JavaCollections/
-/5.OnlineInternship/
-/out/
-/JavaRushPlugin.properties
-/Instruction.png
-/out.log
-/out.log.*
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+!**/src/main/**/build/
+!**/src/test/**/build/
+
+### VS Code ###
+.vscode/
